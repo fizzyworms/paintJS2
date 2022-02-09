@@ -1,0 +1,63 @@
+@import "reset.css";
+
+body {
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.canvas {
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.controls__colors {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.controls__colors .controls__color {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.controls__btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.controls__btns button {
+  padding: 5px 10px;
+  width: 100px;
+  font-weight: 800;
+  font-size: 16px;
+  border: 2px solid rgba(177, 91, 91, 0.8);
+  color: rgb(102, 97, 97);
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.controls__btns button:active {
+  transform: scale(0.97);
+}
+
+.controls__btns #jsRange {
+  margin-left: 55px;
+}
+
+.controls__btns #eraser {
+  width: 80px;
+  /* text-transform: uppercase; */
+  font-size: 14px;
+}

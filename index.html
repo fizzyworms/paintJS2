@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" class="ref" />
+    <title>Paint JS</title>
+  </head>
+  <body>
+    <canvas id="canvas" class="canvas"></canvas>
+    <div class="controls">
+      <div class="controls__btns">
+        <button id="jsMode">Fill</button>
+        <button id="jsSave">Save</button>
+        <input id="jsRange" type="range" min="0" max="5.0" step="0.1" />
+        <button id="eraser">Eraser</button>
+      </div>
+      <div id="jsColors" class="controls__colors">
+        <div
+          class="controls__color jsColor"
+          style="background-color: rgb(19, 16, 16)"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: white"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: red"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: yellow"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: green"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: blue"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: blueviolet"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: coral"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: darkgray"
+        ></div>
+      </div>
+    </div>
+    <script src="paint.js"></script>
+  </body>
+</html>
