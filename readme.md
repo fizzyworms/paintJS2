@@ -1,1 +1,1 @@
-// making paintJS by my self
+// making paintJS again
